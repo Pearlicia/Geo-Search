@@ -1,0 +1,82 @@
+/* * {box-sizing: border-box;} */
+
+html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      background-color: #f4f4f4;
+    }
+
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+
+/* Map */
+
+/*  Set the map height explicitly to define the size of the div
+     * element that contains the map. */
+     #map {
+      height: 50%;
+      margin: auto;
+      background-color: grey;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    
+
+    
+      #panel {
+          height: 100%;
+          width: null;
+          background-color: white;
+          position: fixed;
+          z-index: 1;
+          overflow-x: hidden;
+          transition: all .2s ease-out;
+      }
+
+      .open {
+          width: 250px;
+      }
+
+      /* Styling for place details */
+      .hero {
+          width: 100%;
+          height: auto;
+          max-height: 166px;
+          display: block;
+      }
+
+      .place,
+      p {
+          font-family: 'open sans', arial, sans-serif;
+          padding-left: 18px;
+          padding-right: 18px;
+      }
+
+      .details {
+          color: darkslategrey;
+      }
+
+      a {
+          text-decoration: none;
+          color: cadetblue;
+      }
