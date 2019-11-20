@@ -1,0 +1,25 @@
+{
+  "name": "geo-search",
+  "version": "1.0.0",
+  "description": "Geo-Search is a tool that allows people to search for places and extract information such as timezone, map and local weather conditions like temperature, wind speed, humidity, and precipitation.",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pearlicia/Geo-Search.git"
+  },
+  "author": "Felicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pearlicia/Geo-Search/issues"
+  },
+  "homepage": "https://github.com/Pearlicia/Geo-Search#readme"
+}

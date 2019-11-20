@@ -14,24 +14,41 @@
 
     <header>
         <div class="container">
-            <div id="brand">
-                <h1>Geo-Search</h1>
+            <div id="branding">
+                <h1><span class="highlight">Geo</span>Search</h1>
             </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
     <section id="showcase">
         <div class="container">
-            <h1>Search any place of your interest</h1>
-                <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
+            <h1>Search any of your Prefered Locations</h1>
+            <P>And also see the weather condition of your place of interest</P>
         </div>
     </section>
 
-            <section></section>
+    <section id="search">
+        <div class="container">
+            <h1>Search your place of Interest</h1>
+            <form>
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+
+    
+
+    
+
+           
 
      <!-- The slide-out panel for showing place details -->
      <div id="panel"></div>
@@ -40,7 +57,10 @@
        <div id="map"></div>
 
     
-    <footer></footer>
+       <footer>
+            <p>Lishia Inc. Copyright &copy; 2019</p>
+        </footer>
+    
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ZCZbX-eaWFL-V_vwMocKOUmrv0AVbF0&libraries=places&callback=initMap"></script>
     
