@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Geo-Search is a tool that allows people to search for places and extract information such as timezone, map and local weather conditions like temperature, wind speed, humidity, and precipitation.",
   "main": "script.js",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^2.0.0"
   },
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
