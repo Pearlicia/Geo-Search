@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
     <script src="location.js"></script>
 
     <title>Geo-Search</title>
@@ -37,7 +36,8 @@
 
     <section id="search">
         <div class="container">
-            <h1>Search your place of Interest</h1>
+            <h1 class="status" data-status>Search your place of Interest</h1>
+        
             <form>
                 <input type="text" class="city-search" city-search placeholder="Enter Location" name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
@@ -49,17 +49,17 @@
         <div class="detail-section">
             <div class="detail">
                 <div class="title">Wind</div>
-                <div class="value">TBD</div>
+                <div class="value" data-wind>TBD</div>
             </div>
 
             <div class="detail">
                 <div class="title">Temperature</div>
-                <div class="value">TBD</div>
+                <div class="value" data-temperature>TBD</div>
             </div>
 
             <div class="detail">
                 <div class="title">Precipitation</div>
-                <div class="value">TBD</div>
+                <div class="value" data-precipitation>TBD</div>
             </div>
         </div>
     </section>
@@ -76,10 +76,10 @@
             <p>Lishia Inc. Copyright &copy; 2019</p>
         </footer>
 
-        <a href="https://darksky.net/poweredby" class="darksky-logo">Powered By Dark Sky</a>
+        <!-- <a href="https://darksky.net/poweredby" class="darksky-logo">Powered By Dark Sky</a> -->
     
       
-    <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ZCZbX-eaWFL-V_vwMocKOUmrv0AVbF0&libraries=places"></script>
+    <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ZCZbX-eaWFL-V_vwMocKOUmrv0AVbF0&libraries=places&callback=initMap"></script>
     
 </body>
 </html>
